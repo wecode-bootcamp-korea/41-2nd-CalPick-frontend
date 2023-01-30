@@ -7,7 +7,10 @@ ${reset}
 * {
     box-sizing: border-box;
   }
-
+.inner {
+  width: 1130px;
+  margin: auto;
+}
 `;
 
 export default GobalStyle;

@@ -1,26 +1,53 @@
+import { css } from 'styled-components';
+
 const colors = {
-  white: '#fff',
-  primary: '#1e9eff',
+  primary: '#6B95BB',
+  basic: '#767676',
+  warning: '#E6493B',
+  control: '#F1F3F4',
 };
 
-export const fontSize = {
-  xs: '12px',
-  sm: '14px',
-  base: '16px',
-  lg: '18px',
-  xl: '24px',
+const fontSize = {
+  title1: '32px',
+  title2: '24px',
+  title3: '18px',
+  l: '16px',
+  m: '14px',
+  s: '12px',
 };
 
-export const lineHeight = {
-  xs: '1em',
-  sm: '1em',
-  base: '1em',
-  lg: '1em',
+const fontWeight = {
+  nomal: 500,
+  bold: 700,
+};
+
+const lineHeight = {
+  xs: '0.125em',
+  sm: '0.25em',
+  base: '0.5em',
+  lg: '0.75em',
   xl: '1em',
 };
 
+const variables = {
+  wh: (w, h) => `
+    width: ${w};
+    height: ${h};
+  `,
+
+  flex: (direction = 'row', justify = '', align = '') => `
+    display: flex;
+    flex-direction: ${direction};
+    justify-content: ${justify};
+    align-items: ${align};
+  `,
+};
 const theme = {
-  ...colors,
+  colors,
+  fontSize,
+  fontWeight,
+  lineHeight,
+  variables,
 };
 
 export default theme;

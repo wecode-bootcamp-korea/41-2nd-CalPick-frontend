@@ -1,15 +1,13 @@
 import styled, { css } from 'styled-components';
-
-function Button({ clickHandler, children, size, color, disabled = false }) {
+function Button({ children, size, color, disabled = false, ...props }) {
   const sizeList = {
     large: '340px',
     medium: '240px',
     small: '120px',
   };
-
   return (
     <StyledButton
-      onClick={clickHandler}
+      {...props}
       disabled={disabled}
       size={sizeList[size]}
       color={color}
@@ -18,9 +16,7 @@ function Button({ clickHandler, children, size, color, disabled = false }) {
     </StyledButton>
   );
 }
-
 export default Button;
-
 export const StyledButton = styled.button`
   width: ${props => props.size};
   height: 48px;

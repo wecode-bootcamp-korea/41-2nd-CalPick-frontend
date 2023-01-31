@@ -1,0 +1,37 @@
+[
+  [
+    { "name": "a1", "isBooked": 1 },
+    { "name": "a2", "isBooked": 0 },
+    { "name": "a3", "isBooked": 0 },
+    { "name": "a4", "isBooked": 1 },
+    { "name": "a5", "isBooked": 1 }
+  ],
+  [
+    { "name": "b1", "isBooked": 1 },
+    { "name": "b2", "isBooked": 1 },
+    { "name": "b3", "isBooked": 1 },
+    { "name": "b4", "isBooked": 1 },
+    { "name": "b5", "isBooked": 1 }
+  ],
+  [
+    { "name": "c1", "isBooked": 1 },
+    { "name": "c2", "isBooked": 1 },
+    { "name": "c3", "isBooked": 1 },
+    { "name": "c4", "isBooked": 1 },
+    { "name": "c5", "isBooked": 1 }
+  ],
+  [
+    { "name": "d1", "isBooked": 1 },
+    { "name": "d2", "isBooked": 1 },
+    { "name": "d3", "isBooked": 1 },
+    { "name": "d4", "isBooked": 1 },
+    { "name": "d5", "isBooked": 1 }
+  ],
+  [
+    { "name": "e1", "isBooked": 1 },
+    { "name": "e2", "isBooked": 1 },
+    { "name": "e3", "isBooked": 1 },
+    { "name": "e4", "isBooked": 1 },
+    { "name": "e5", "isBooked": 1 }
+  ]
+]

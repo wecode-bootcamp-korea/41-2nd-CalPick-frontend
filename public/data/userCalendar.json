@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "미팅",
+    "start": "2023-02-23",
+    "end": "2023-02-24",
+    "className": "ticket",
+    "contents": "할아버지 미팅",
+    "color": "pink",
+    "editable": true,
+    "startEditable": true,
+    "durationEditable": true,
+    "resourceEditable": true
+  },
+  {
+    "id": 2,
+    "title": "개인 과외",
+    "start": "2023-02-03",
+    "end": "2023-02-04",
+    "className": "ticket",
+    "contents": "서울대 선생님",
+    "color": "pink",
+    "editable": true,
+    "startEditable": true,
+    "durationEditable": true,
+    "resourceEditable": true
+  },
+  {
+    "id": 3,
+    "title": "개인 공부",
+    "start": "2023-02-13",
+    "end": "2023-02-14",
+    "className": "ticket",
+    "contents": "자바 공부",
+    "color": "pink",
+    "editable": true,
+    "startEditable": true,
+    "durationEditable": true,
+    "resourceEditable": true
+  },
+  {
+    "id": 4,
+    "title": "개발 공부",
+    "start": "2023-02-15",
+    "end": "2023-02-20",
+    "className": "ticket",
+    "contents": "리엑트 공부",
+    "color": "pink",
+    "editable": true,
+    "startEditable": true,
+    "durationEditable": true,
+    "resourceEditable": true
+  },
+  {
+    "id": 5,
+    "title": "내 생일",
+    "start": "2023-02-18",
+    "end": "2023-02-24",
+    "className": "ticket",
+    "contents": "혼자하는 생일파티",
+    "color": "pink",
+    "editable": true,
+    "startEditable": true,
+    "durationEditable": true,
+    "resourceEditable": true
+  },
+  {
+    "id": 6,
+    "title": "지연 생일",
+    "start": "2023-11-16",
+    "className": "ticket",
+    "end": "2023-11-16",
+    "contents": "바보",
+    "color": "pink",
+    "editable": true,
+    "startEditable": true,
+    "durationEditable": true,
+    "resourceEditable": true
+  }
+]

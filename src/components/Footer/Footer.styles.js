@@ -118,7 +118,7 @@ const S = {
     gap: 8px;
     align-items: center;
     position: absolute;
-    right: 100px;
+    right: 1vw;
   `,
   Bottom: styled.div`
     margin-top: 60px;

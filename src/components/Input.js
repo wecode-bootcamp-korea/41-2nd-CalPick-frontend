@@ -1,9 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Input = ({ id, type, disabled = false, required = false }) => {
+const Input = ({ id, type, disabled = false, required = false, onChange }) => {
   return (
-    <InputStyle id={id} type={type} disabled={disabled} required={required} />
+    <InputStyle
+      id={id}
+      type={type}
+      disabled={disabled}
+      required={required}
+      onChange={onChange}
+    />
   );
 };
 

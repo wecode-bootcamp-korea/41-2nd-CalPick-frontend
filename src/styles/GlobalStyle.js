@@ -6,6 +6,7 @@ ${reset}
 
 * {
     box-sizing: border-box;
+    font-family: 'Apple SD Gothic Neo', 'Helvetica Neue', sans-serif;
   }
   
 .inner {

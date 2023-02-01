@@ -1,20 +1,38 @@
 import styled, { css } from 'styled-components';
 
-function Button({ clickHandler }) {
-  return <StyledButton onClick={clickHandler}></StyledButton>;
+function Button({ clickHandler, children, size, color, disabled = false }) {
+  const sizeList = {
+    large: '340px',
+    medium: '240px',
+    small: '120px',
+  };
+
+  return (
+    <StyledButton
+      onClick={clickHandler}
+      disabled={disabled}
+      size={sizeList[size]}
+      color={color}
+    >
+      {children}
+    </StyledButton>
+  );
 }
 
 export default Button;
 
 export const StyledButton = styled.button`
-  width: ${props => (props.large ? '340px' : '120px')};
+  width: ${props => props.size};
   height: 48px;
-  color: ${props => (props.white ? props.theme.colors.primary : 'white')};
+  color: ${props =>
+    props.color === 'primary' ? 'white' : props.theme.colors.primary};
   background-color: ${props =>
-    props.white ? 'white' : props.theme.colors.primary};
+    props.color === 'primary' ? props.theme.colors.primary : 'white'};
   border: 1px solid
     ${props =>
-      props.white ? props.theme.colors.primary : props.theme.colors.control};
+      props.color === 'white'
+        ? props.theme.colors.primary
+        : props.theme.colors.control};
   border-radius: 4px;
   font-size: 15px;
   font-weight: 700;

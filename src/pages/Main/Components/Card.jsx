@@ -26,12 +26,12 @@ export default function Card({ testData }) {
     <S.CardsContainer>
       <S.CardsLayout className="inner">
         <S.CardsBtnDiv props={testData.length < 3}>
-          <S.CardsCarouselBtn left={'340px'} onClick={moveLeft}>
+          <S.CardsCarouselBtn left={'100px'} onClick={moveLeft}>
             <MdOutlineKeyboardArrowLeft size={'50px'} />
           </S.CardsCarouselBtn>
 
           <S.CardsCarouselBtn
-            right={'350px'}
+            right={'110px'}
             onClick={move !== -278 && moveRight}
           >
             <MdOutlineKeyboardArrowRight size={'50px'} />

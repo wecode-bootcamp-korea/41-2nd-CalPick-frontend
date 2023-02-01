@@ -23,7 +23,7 @@ function Login() {
   };
 
   const clickHandler = () => {
-    fetch('http://10.58.52.241:3000/user/signin', {
+    fetch('http://10.58.52.209:3000/user/signin', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json; charset=utf-8',
@@ -34,13 +34,7 @@ function Login() {
       }),
     })
       .then(res => res.json())
-      .then(data => {
-        if (data) {
-          navigate('/main');
-        } else {
-          alert('로그인에 실패했습니다.');
-        }
-      });
+      .then(data => localStorage.setItem('accessToken', data.accessToken));
   };
 
   return (

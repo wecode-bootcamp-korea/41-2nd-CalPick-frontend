@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "셀픽",
+    "className": "ticket",
+    "start": "2023-02-11"
+  },
+  {
+    "id": "2",
+    "title": "셀픽",
+    "className": "ticket",
+    "start": "2023-02-12"
+  },
+  {
+    "id": "3",
+    "title": "셀픽",
+    "className": "ticket",
+    "start": "2023-02-18"
+  },
+  {
+    "id": "4",
+    "title": "셀픽",
+    "className": "ticket",
+    "start": "2023-02-19"
+  },
+  {
+    "id": "5",
+    "className": "ticket",
+    "title": "셀픽",
+    "start": "2023-02-25"
+  }
+]

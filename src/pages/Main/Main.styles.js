@@ -6,7 +6,7 @@ export const MainContainer = styled.div`
 `;
 
 export const EventCarousel = styled.div`
-  ${props => props.theme.variables.wh('', '203px')}
+  ${props => props.theme.variables.wh('', '210px')}
   overflow-x: hidden;
 `;
 

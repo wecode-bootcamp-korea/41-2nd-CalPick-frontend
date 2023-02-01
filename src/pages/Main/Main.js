@@ -6,7 +6,7 @@ import * as S from './Main.styles';
 export default function Main() {
   const [testData, setTestData] = useState([]);
   const [imgCount, setImgCount] = useState(0);
-  const url = 'http://10.58.52.241:3000/tests';
+  const url = 'http://10.58.52.199:3000/tests';
 
   useEffect(() => {
     fetch(url)

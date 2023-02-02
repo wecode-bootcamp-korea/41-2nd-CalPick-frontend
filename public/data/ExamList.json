@@ -1,0 +1,27 @@
+[
+  {
+    "testName": "캘픽",
+    "testDate": "2023-02-11",
+    "province_id": 1,
+    "province": "서울",
+    "districts": "강남구",
+    "testSites": [
+      {
+        "id": 3,
+        "lat": 127.0617883,
+        "lng": 37.50555883,
+        "name": "휘문중학교",
+        "address": "서울 강남구 역삼로 541",
+        "seatsNum": 25
+      },
+      {
+        "id": 6,
+        "lat": 127.1006678,
+        "lng": 37.47134561,
+        "name": "풍문고등학교",
+        "address": "서울 강남구 자곡로 152",
+        "seatsNum": 25
+      }
+    ]
+  }
+]

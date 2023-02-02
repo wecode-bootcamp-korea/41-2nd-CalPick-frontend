@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+
 function Button({ children, size, color, disabled = false, ...props }) {
   const sizeList = {
     large: '340px',

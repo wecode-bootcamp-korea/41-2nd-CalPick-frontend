@@ -9,6 +9,7 @@ import Certification from './pages/Certification/Certification';
 import Footer from './components/Footer/Footer';
 import Order from './pages/Order/Order';
 import ExamList from './pages/ExamList/ExamList';
+import ExamInfo from './pages/ExamInfo/ExamInfo';
 import KaKaoLogin from './pages/Login/KakaoLogin/KaKaoLogin';
 
 const Router = () => {
@@ -23,6 +24,7 @@ const Router = () => {
         <Route path="/auth/kakao/callback" element={<KaKaoLogin />} />
         <Route path="/order" element={<Order />} />
         <Route path="/examlist" element={<ExamList />} />
+        <Route path="/examInfo" element={<ExamInfo />} />
         <Route path="/certification" element={<Certification />} />
       </Routes>
       <Footer />

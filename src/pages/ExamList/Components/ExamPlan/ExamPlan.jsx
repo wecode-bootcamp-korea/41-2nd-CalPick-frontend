@@ -8,7 +8,7 @@ export default function ExamPlan() {
   const [examName, setExamName] = useState('캘픽');
 
   useEffect(() => {
-    fetch(`http://10.58.52.136:3000/tests?testName=${examName}`)
+    fetch(`http://10.58.52.241:3001/tests?testName=${examName}`)
       .then(response => response.json())
       .then(data => setDateList(data));
   }, [examName]);

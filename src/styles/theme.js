@@ -2,6 +2,7 @@ import { css } from 'styled-components';
 
 const colors = {
   primary: '#6B95BB',
+  opacityPrimary: 'rgba(107, 149, 187, 0.3)',
   basic: '#767676',
   warning: '#E6493B',
   control: '#F1F3F4',

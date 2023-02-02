@@ -18,6 +18,7 @@ export default function useFetch(url, method = 'GET', options) {
       .then(res => res.json())
       .then(data => {
         setFetchData(data);
+        options?.onSuccess && options.onSuccess(data, setFetchData);
       })
       .catch(e => setError(e.message))
       .finally(setLoding(false));

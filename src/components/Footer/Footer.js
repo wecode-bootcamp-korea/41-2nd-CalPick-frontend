@@ -1,9 +1,10 @@
 import React from 'react';
+import { FaInstagram, FaFacebookSquare, FaYoutube } from 'react-icons/fa';
 import S from './Footer.styles';
 
 function Footer() {
   return (
-    <S.Top>
+    <S.Top className="inner">
       <S.TopFirst>
         <S.UlFirst>
           <S.LiFirst>
@@ -63,9 +64,9 @@ function Footer() {
         </S.Fi>
 
         <S.App>
-          <S.Facebook src="./images/facebook.png" />
-          <S.Instagram src="./images/instagram.png" />
-          <S.Youtube src="./images/youtube.png" />
+          <FaFacebookSquare size="30px" />
+          <FaInstagram size="32px" />
+          <FaYoutube size="38px" />
         </S.App>
       </S.TopFirst>
       <S.Bottom>

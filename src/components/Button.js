@@ -37,11 +37,9 @@ export const StyledButton = styled.button`
   opacity: 0.8;
   box-shadow: rgba(31, 140, 230, 0.3) 0px 1px 1px 0px;
   cursor: pointer;
-
   &:hover {
     opacity: 1;
   }
-
   &:disabled {
     opacity: 0.3;
   }

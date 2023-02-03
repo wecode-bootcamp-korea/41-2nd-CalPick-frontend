@@ -48,3 +48,11 @@ export const SmallBtn = styled(StyledButton)`
   position: absolute;
   right: 0px;
 `;
+
+export const Timer = styled.p`
+  position: absolute;
+  top: 343px;
+  left: 250px;
+  color: ${props => props.theme.colors.warning};
+  font-size: ${props => props.theme.fontSize.s};
+`;

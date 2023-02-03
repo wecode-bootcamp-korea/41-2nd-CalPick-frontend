@@ -4,9 +4,8 @@ const S = {
   Top: styled.div`
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    margin-left: 76px;
     margin-top: 67px;
+    margin-left: 90px;
     display: flex;
     -ms-flex-direction: column;
   `,
@@ -115,22 +114,11 @@ const S = {
     margin-bottom: 10px;
   `,
   App: styled.div`
+    display: flex;
+    gap: 8px;
+    align-items: center;
     position: absolute;
     right: 100px;
-  `,
-  Facebook: styled.img`
-    width: 30px;
-    height: 30px;
-  `,
-  Instagram: styled.img`
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-  `,
-  Youtube: styled.img`
-    width: 30px;
-    height: 30px;
   `,
   Bottom: styled.div`
     margin-top: 60px;

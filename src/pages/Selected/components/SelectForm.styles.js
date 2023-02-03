@@ -5,6 +5,7 @@ export const SelectFormContainer = styled.div`
   width: ${props => props.w};
   height: 100%;
   background-color: ${props => props.theme.colors.control};
+  border-radius: 5px;
 `;
 
 export const Title = styled.p`
@@ -18,4 +19,5 @@ export const Title = styled.p`
 export const SelectContents = styled.form`
   ${props => props.theme.variables.flex('column', 'center', 'center')}
   gap: 10px;
+  position: relative;
 `;

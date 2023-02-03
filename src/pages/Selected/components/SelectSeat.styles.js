@@ -52,5 +52,5 @@ export const Seats = styled.div`
 
 export const Seat = styled.div`
   color: ${props =>
-    props.isbooked ? props.theme.colors.primary : props.theme.colors.basic};
+    !props.isbooked ? props.theme.colors.primary : props.theme.colors.basic};
 `;

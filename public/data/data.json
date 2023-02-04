@@ -1,4 +1,37 @@
 [
-  { "id": 1, "title": "123" },
-  { "id": 2, "title": "345" }
+  {
+    "testName": "캘픽",
+    "testInfo": [
+      {
+        "testDate": "2023년 3월 25일",
+        "receiptDate": "2023년 2월 25일",
+        "announceDate": "2023년 4월 25일",
+        "receptionStatus": "접수하기"
+      },
+      {
+        "testDate": "2023년 3월 26일",
+        "receiptDate": "2023년 2월 26일",
+        "announceDate": "2023년 4월 26일",
+        "receptionStatus": "접수하기"
+      },
+      {
+        "testDate": "2023년 3월 27일",
+        "receiptDate": "2023년 2월 27일",
+        "announceDate": "2023년 4월 27일",
+        "receptionStatus": "접수예정"
+      },
+      {
+        "testDate": "2023년 3월 28일",
+        "receiptDate": "2023년 2월 28일",
+        "announceDate": "2023년 4월 28일",
+        "receptionStatus": "접수예정"
+      },
+      {
+        "testDate": "2023년 3월 29일",
+        "receiptDate": "2023년 2월 29일",
+        "announceDate": "2023년 4월 29일",
+        "receptionStatus": "접수예정"
+      }
+    ]
+  }
 ]

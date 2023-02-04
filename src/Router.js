@@ -6,6 +6,7 @@ import Selected from './pages/Selected/Selected';
 import Mypage from './pages/Mypage/Mypage';
 import Footer from './components/Footer/Footer';
 import Redirect from './pages/Login/SocialLogin/Redirect';
+import ExamList from './pages/ExamList/ExamList';
 
 const Router = () => {
   return (
@@ -16,6 +17,7 @@ const Router = () => {
         <Route path="/selected" element={<Selected />} />
         <Route path="/mypage" element={<Mypage />} />
         <Route path="/redirect" element={<Redirect />} />
+        <Route path="/examlist" element={<ExamList />} />
       </Routes>
       <Footer />
     </BrowserRouter>

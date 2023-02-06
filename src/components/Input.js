@@ -1,7 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Input = ({ id, type, disabled = false, required = false, onChange }) => {
+const Input = ({
+  id,
+  type,
+  disabled = false,
+  required = false,
+  onChange,
+  value,
+}) => {
   return (
     <InputStyle
       id={id}
@@ -9,11 +16,12 @@ const Input = ({ id, type, disabled = false, required = false, onChange }) => {
       disabled={disabled}
       required={required}
       onChange={onChange}
+      value={value}
     />
   );
 };
 
-const InputStyle = styled.input`
+export const InputStyle = styled.input`
   width: 340px;
   height: 50px;
   padding-left: 20px;

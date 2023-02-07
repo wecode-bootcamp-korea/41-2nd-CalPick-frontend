@@ -5,8 +5,8 @@ const S = {
     display: flex;
     flex-direction: column;
     margin-top: 67px;
-    margin-left: 90px;
-    display: flex;
+    padding: 30px;
+    border-top: 2px solid ${props => props.theme.colors.control};
     -ms-flex-direction: column;
   `,
   TopFirst: styled.div`

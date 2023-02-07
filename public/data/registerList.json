@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "examName": "캘픽",
+    "examDate": "2023-03-25",
+    "examTime": "오후 12시",
+    "testSite": "덕원여자고등학교",
+    "buttonName": "자세히보기"
+  },
+  {
+    "id": 2,
+    "examName": "캘픽스피킹",
+    "examDate": "2023-03-28",
+    "examTime": "오후 12시",
+    "testSite": "경기고등학교",
+    "buttonName": "자세히보기"
+  },
+  {
+    "id": 3,
+    "examName": "오캘픽",
+    "examDate": "2023-04-25",
+    "examTime": "오후 12시",
+    "testSite": "명덕여자고등학교",
+    "buttonName": "자세히보기"
+  }
+]

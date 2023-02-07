@@ -8,6 +8,7 @@ const Input = ({
   required = false,
   onChange,
   value,
+  name,
 }) => {
   return (
     <InputStyle
@@ -17,6 +18,7 @@ const Input = ({
       required={required}
       onChange={onChange}
       value={value}
+      name={name}
     />
   );
 };

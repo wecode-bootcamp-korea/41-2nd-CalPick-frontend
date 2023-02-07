@@ -5,6 +5,7 @@ import Login from './pages/Login/Login';
 import Main from './pages/Main/Main';
 import Selected from './pages/Selected/Selected';
 import Mypage from './pages/Mypage/Mypage';
+import Certification from './pages/Certification/Certification';
 import Footer from './components/Footer/Footer';
 import Redirect from './pages/Login/SocialLogin/Redirect';
 import Order from './pages/Order/Order';
@@ -22,6 +23,7 @@ const Router = () => {
         <Route path="/redirect" element={<Redirect />} />
         <Route path="/order" element={<Order />} />
         <Route path="/examlist" element={<ExamList />} />
+        <Route path="/certification" element={<Certification />} />
       </Routes>
       <Footer />
     </BrowserRouter>

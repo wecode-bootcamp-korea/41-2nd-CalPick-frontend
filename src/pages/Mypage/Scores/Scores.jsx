@@ -1,7 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import * as S from './Scores.styles';
 
 export default function Scores() {
+  const navigate = useNavigate();
+
+  const goToCertification = () => navigate('/certification');
+
   return (
     <S.ScoresContainer>
       <S.ScoreHeader>성적확인</S.ScoreHeader>
@@ -22,7 +27,7 @@ export default function Scores() {
               <td>{testDate}</td>
               <td>{userId}</td>
               <td>{score}</td>
-              <td>{more}</td>
+              <td onClick={goToCertification}>{more}</td>
             </tr>
           ))}
         </S.ScoreTableBody>

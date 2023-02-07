@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav/Nav';
 import Login from './pages/Login/Login';
+import Signup from './pages/SignUp/SignUp';
 import Main from './pages/Main/Main';
 import Selected from './pages/Selected/Selected';
 import Mypage from './pages/Mypage/Mypage';
@@ -24,6 +25,7 @@ const Router = () => {
         <Route path="/order" element={<Order />} />
         <Route path="/examlist" element={<ExamList />} />
         <Route path="/certification" element={<Certification />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav/Nav';
+import Login from './pages/Login/Login';
 import Main from './pages/Main/Main';
 import Selected from './pages/Selected/Selected';
 import Mypage from './pages/Mypage/Mypage';
@@ -14,6 +15,7 @@ const Router = () => {
       <Nav />
       <Routes>
         <Route path="/" element={<Main />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/selected" element={<Selected />} />
         <Route path="/mypage" element={<Mypage />} />
         <Route path="/redirect" element={<Redirect />} />

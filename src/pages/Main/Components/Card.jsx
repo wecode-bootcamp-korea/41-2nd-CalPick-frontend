@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import TestCard from './TestCard';
 import { MdOutlineKeyboardArrowLeft } from 'react-icons/md';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
@@ -9,6 +10,7 @@ export default function Card({ testData }) {
   const [move, setMove] = useState(0);
 
   const cardWidth = 278;
+  const navigate = useNavigate();
 
   const moveRight = () => {
     if (move >= -(testData.length * cardWidth) + cardWidth * 1) {
@@ -20,6 +22,10 @@ export default function Card({ testData }) {
     if (move <= -cardWidth) {
       setMove(move + cardWidth * 1);
     }
+  };
+
+  const goToExamList = () => {
+    navigate('/examlist');
   };
 
   return (
@@ -41,7 +47,7 @@ export default function Card({ testData }) {
         <S.MainTitle>
           <S.TestTitle>{`${testType} 시험일정 안내`}</S.TestTitle>
           {testData[0].testName === '캘픽' && (
-            <S.AllTestLink>전체일정보기</S.AllTestLink>
+            <S.AllTestLink onClick={goToExamList}>전체일정보기</S.AllTestLink>
           )}
         </S.MainTitle>
 

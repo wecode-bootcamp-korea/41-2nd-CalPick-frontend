@@ -1,17 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Button from '../../../../components/Button';
 import * as S from './ExamPlanList.styles';
-import { useNavigate, useSearchParams } from 'react-router-dom';
 
 export default function ExamPlanList({ info, examName }) {
-  const [searchParams, SetSearchParams] = useSearchParams();
   const navigate = useNavigate();
 
   const clickHandler = () => {
-    searchParams.set('examName', examName);
-    searchParams.set('testDate', info.testDate);
-    SetSearchParams(searchParams);
-    navigate('/examInfo');
+    navigate(`/examInfo?examName=${examName}&testDate=${info.testDate}`);
   };
 
   const changeDate = date => {

@@ -7,6 +7,7 @@ import Selected from './pages/Selected/Selected';
 import Mypage from './pages/Mypage/Mypage';
 import Footer from './components/Footer/Footer';
 import Redirect from './pages/Login/SocialLogin/Redirect';
+import Order from './pages/Order/Order';
 import ExamList from './pages/ExamList/ExamList';
 
 const Router = () => {
@@ -19,6 +20,7 @@ const Router = () => {
         <Route path="/selected" element={<Selected />} />
         <Route path="/mypage" element={<Mypage />} />
         <Route path="/redirect" element={<Redirect />} />
+        <Route path="/order" element={<Order />} />
         <Route path="/examlist" element={<ExamList />} />
       </Routes>
       <Footer />

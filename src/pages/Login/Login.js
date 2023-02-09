@@ -3,6 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import S from './Login.styles';
 import Button from '../../components/Button';
 import Input from '../../components/Input';
+import { KAKAO_OAUTH_URL } from './KakaoLogin/OAUTH';
+import { RiKakaoTalkFill } from 'react-icons/ri';
+import { BubbleContainer } from '../Order/Order.styles';
 
 function Login() {
   const navigate = useNavigate();
@@ -86,6 +89,13 @@ function Login() {
           회원가입
         </Button>
       </S.Login>
+      <a href={KAKAO_OAUTH_URL}>
+        <S.ButtonContainer>
+          <Button size="large" color="primary">
+            카카오 로그인하기
+          </Button>
+        </S.ButtonContainer>
+      </a>
     </S.Top>
   );
 }

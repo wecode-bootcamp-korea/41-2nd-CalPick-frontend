@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const MypageContainer = styled.div`
   ${props => props.theme.variables.flex('column', 'center', 'center')}
   gap: 30px;
+  ${props => props.theme.variables.wh('', '950px')}
 `;
 
 export const MypageTitle = styled.p`

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ScoresContainer = styled.div`
   ${props => props.theme.variables.flex('column', 'center', 'center')}
   gap: 20px;
-  ${props => props.theme.variables.wh('100%', '30vh')};
+  ${props => props.theme.variables.wh('100%', '300px')};
 `;
 
 export const ScoreHeader = styled.h3`

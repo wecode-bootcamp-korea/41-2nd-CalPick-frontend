@@ -3,11 +3,12 @@ import styled from 'styled-components';
 export const PageContainer = styled.body`
   ${props => props.theme.variables.flex('column', 'center', 'center')}
   gap: 32px;
+  margin: 50px;
 `;
 
 export const CertificationContainer = styled.div`
   ${props => props.theme.variables.flex('column', 'center', 'center')}
-  ${props => props.theme.variables.wh('790px', '123vh')}
+  ${props => props.theme.variables.wh('790px', '1100px')}
   border: 3px solid ${props => props.theme.colors.primary};
   border-radius: 5px;
 `;

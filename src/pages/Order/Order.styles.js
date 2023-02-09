@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const OrderContainer = styled.div`
   ${props => props.theme.variables.flex('column', 'center', 'center')}
-  ${props => props.theme.variables.wh('50vw', '50vh')}
+  ${props => props.theme.variables.wh('50vw', '500px')}
+  margin-bottom: 50px;
 `;
 
 export const BubbleContainer = styled.div`

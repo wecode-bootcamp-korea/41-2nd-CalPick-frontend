@@ -100,7 +100,7 @@ export default function UserInfo({ seat, seatId, params }) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json;charset=utf-8',
-        Authorization: process.env.REACT_APP_AUTHORIZATION,
+        Authorization: localStorage.getItem('accessToken'),
       },
       body: JSON.stringify({
         mobile: phone,
@@ -118,7 +118,7 @@ export default function UserInfo({ seat, seatId, params }) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json;charset=utf-8',
-        Authorization: process.env.REACT_APP_AUTHORIZATION,
+        Authorization: localStorage.getItem('accessToken'),
       },
       body: JSON.stringify({
         mobile: phone,
@@ -136,7 +136,7 @@ export default function UserInfo({ seat, seatId, params }) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json;charset=utf-8',
-        Authorization: process.env.REACT_APP_AUTHORIZATION,
+        Authorization: localStorage.getItem('accessToken'),
       },
       body: JSON.stringify({
         orderName: userInfo.info.testName,

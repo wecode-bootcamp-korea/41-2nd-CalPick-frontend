@@ -40,7 +40,7 @@ export default function Certification() {
       </S.CertificationContainer>
       <Pdf targetRef={ref} filename="하평안_캘픽자격증.pdf">
         {({ toPdf }) => (
-          <Button size="medium" color="primary" clickHandler={toPdf}>
+          <Button size="medium" color="primary" onClick={toPdf}>
             pdf파일저장 & 출력하기
           </Button>
         )}

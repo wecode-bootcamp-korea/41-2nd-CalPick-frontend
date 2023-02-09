@@ -7,9 +7,9 @@ import Selected from './pages/Selected/Selected';
 import Mypage from './pages/Mypage/Mypage';
 import Certification from './pages/Certification/Certification';
 import Footer from './components/Footer/Footer';
-import Redirect from './pages/Login/SocialLogin/Redirect';
 import Order from './pages/Order/Order';
 import ExamList from './pages/ExamList/ExamList';
+import KaKaoLogin from './pages/Login/KakaoLogin/KaKaoLogin';
 
 const Router = () => {
   return (
@@ -20,7 +20,7 @@ const Router = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/selected" element={<Selected />} />
         <Route path="/mypage" element={<Mypage />} />
-        <Route path="/redirect" element={<Redirect />} />
+        <Route path="/auth/kakao/callback" element={<KaKaoLogin />} />
         <Route path="/order" element={<Order />} />
         <Route path="/examlist" element={<ExamList />} />
         <Route path="/certification" element={<Certification />} />

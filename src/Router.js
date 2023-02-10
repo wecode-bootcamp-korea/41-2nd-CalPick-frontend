@@ -12,6 +12,7 @@ import ExamList from './pages/ExamList/ExamList';
 import KaKaoLogin from './pages/Login/KakaoLogin/KaKaoLogin';
 import Calendar from './pages/Calendar/Calendar';
 import ExamInfo from './pages/ExamInfo/ExamInfo';
+import SignUp from './pages/SignUp/SignUp';
 const Router = () => {
   return (
     <BrowserRouter>
@@ -25,6 +26,7 @@ const Router = () => {
         <Route path="/order" element={<Order />} />
         <Route path="/examlist" element={<ExamList />} />
         <Route path="/certification" element={<Certification />} />
+        <Route path="/signup" element={<SignUp />} />
         <Route path="/calendar" element={<Calendar />} />
         <Route path="/examinfo" element={<ExamInfo />} />
       </Routes>

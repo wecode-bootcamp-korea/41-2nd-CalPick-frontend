@@ -10,7 +10,7 @@ export default function NavLogin() {
   };
 
   const goToSignup = () => {
-    navigate('/login');
+    navigate('/signup');
   };
 
   return (

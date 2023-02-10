@@ -9,6 +9,7 @@ const Input = ({
   onChange,
   value,
   name,
+  placeholder,
 }) => {
   return (
     <InputStyle
@@ -19,6 +20,7 @@ const Input = ({
       onChange={onChange}
       value={value}
       name={name}
+      placeholder={placeholder}
     />
   );
 };

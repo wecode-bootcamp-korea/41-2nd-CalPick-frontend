@@ -40,7 +40,7 @@
 ### 4. 사이트
 
 | 사이트             | 구현 모습                                                                                                                            | 담당 개발자                     |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------- | --- |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------- |
 | 메인 페이지        | <img src = "" width = "400px">                                                                                                       | 프론트엔드:하평안/백엔드:류건호 |
 | 회원가입           | <img src = "https://user-images.githubusercontent.com/117281717/218019618-5aa4b62e-18d3-4385-bac8-9115c1426f57.png" width = "400px"> | 프론트엔드:김우성/백엔드:이민규 |
 | 로그인             | <img src = "https://user-images.githubusercontent.com/117281717/218019612-30f829b5-6032-4d08-b73a-3de58f9162da.jpg" width = "400px"> | 프론트엔드:김우성/백엔드:이민규 |
@@ -49,7 +49,7 @@
 | 고사장안내 페이지  | <img src = "https://velog.velcdn.com/images/ijinkyung/post/bc9bcf9d-0050-4285-9f6b-9e725e54cc3e/image.gif" width = "400px">          | 프론트엔드:이진경/백엔드:류건호 |
 | 예약페이지         | <img src = "https://user-images.githubusercontent.com/117281717/218025710-a120d04e-d64a-45c7-9e45-8ba3d56051a0.gif" width = "400px"> | 프론트엔드:서지연/백엔드:류건호 |
 | 캘린더             | <img src = "https://user-images.githubusercontent.com/117281717/218025411-bd17494b-b9aa-4ee3-8755-f94d4d0cda9a.gif" width = "400px"> | 프론트엔드:하평안/백엔드:이민규 |
-| 마이 페이지        | <img src = "https://velog.velcdn.com/images/mia/post/21f3596f-21d7-49bf-a843-113f3162b9c6/image.gif" width = "400px">                | 프론트엔드:서지연/백엔드:류건호 |     |
+| 마이 페이지        | <img src = "https://velog.velcdn.com/images/mia/post/21f3596f-21d7-49bf-a843-113f3162b9c6/image.gif" width = "400px">                | 프론트엔드:서지연/백엔드:류건호 |
 | Footer             | <img src = "https://user-images.githubusercontent.com/117281717/218252706-3bb24aa0-b575-4e4e-88ad-0a810e0bb00e.png">                 | 프론트엔드:김우성               |
 
 ### DB ERD
@@ -98,6 +98,7 @@ COMMON:
 ### 4. 시험 리스트 페이지
 
 - 시험별 예약 가능한 리스트 보여주기
+
   - 시험 별 카테고리 분류하여 조건부 렌더링을 통해 접수 가능한 시험 리스트 보여주기
 
 - searchParams를 사용해 시험 정보 넘겨주기

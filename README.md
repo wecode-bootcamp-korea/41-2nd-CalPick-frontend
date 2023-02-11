@@ -23,16 +23,12 @@
   
 ## 3️⃣ 협업
 
-
-
-| 모델링 웹사이트 분석(Figma) | <img width=50% src=> |
-| :--: | :--: | :--: |
-| 디자인 레이아웃(figma) | <img width=50% src=https://gif> |
-| 협업 툴(trello) | <img width=50% src=https://gif> |
-| WBS (notion) | <img width=50% src=https://gif> | 
-| 협업 정보 공유(notion) | <img width=50% src=https://gif> |
-
-
+|  모델링 웹사이트 분석 - Figma | <img src=https://user-images.githubusercontent.com/115601551/218238770-cea653d9-284a-4210-923a-807726b2c617.png width="700" height="500"> |
+| :--: | :--: |
+|  디자인 레이아웃 - Figma | <img src= width="700" height="500"> |
+|  협업 툴 - Trello | <img src=https://user-images.githubusercontent.com/115601551/218238800-8e7b1b02-714f-465c-a97c-6cdc15d672f6.png width="700" height="500"> |
+| WBS - Notion | <img src=https://user-images.githubusercontent.com/115601551/218239918-2dc8018b-9d3e-4f43-bf58-ab4c3c40ec3f.png width="700" height="500"> |
+| 협업 정보 공유 - Nnotion | <img src=https://user-images.githubusercontent.com/115601551/218238810-6a80878f-d6f7-406f-a273-38c8615f601f.png width="700" height="500"> |
 
 ## 4️⃣ 구현기능 분석
 

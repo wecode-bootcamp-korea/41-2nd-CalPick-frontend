@@ -23,12 +23,12 @@
   
 ## 3️⃣ 협업
 
-|  모델링 웹사이트 분석 - Figma | <img src=https://user-images.githubusercontent.com/115601551/218238770-cea653d9-284a-4210-923a-807726b2c617.png width="700" height="500"> |
-| :--: | :--: |
-|  디자인 레이아웃 - Figma | <img src= width="700" height="500"> |
-|  협업 툴 - Trello | <img src=https://user-images.githubusercontent.com/115601551/218238800-8e7b1b02-714f-465c-a97c-6cdc15d672f6.png width="700" height="500"> |
-| WBS - Notion | <img src=https://user-images.githubusercontent.com/115601551/218239918-2dc8018b-9d3e-4f43-bf58-ab4c3c40ec3f.png width="700" height="500"> |
-| 협업 정보 공유 - Nnotion | <img src=https://user-images.githubusercontent.com/115601551/218238810-6a80878f-d6f7-406f-a273-38c8615f601f.png width="700" height="500"> |
+|  모델링 웹사이트 분석 - Figma | <img src=https://user-images.githubusercontent.com/115601551/218238770-cea653d9-284a-4210-923a-807726b2c617.png width="700" height="500"> | 담당 : 하평안 |
+| :--: | :--: | :--: |
+|  디자인 레이아웃 - Figma | <img src="" width="700" height="500"> | 담당 : 서지연 |
+|  협업 툴 - Trello | <img src=https://user-images.githubusercontent.com/115601551/218238800-8e7b1b02-714f-465c-a97c-6cdc15d672f6.png width="700" height="500"> | 전체 |
+| WBS - Notion | <img src=https://user-images.githubusercontent.com/115601551/218239918-2dc8018b-9d3e-4f43-bf58-ab4c3c40ec3f.png width="700" height="500"> | 담당 : 서지연 |
+| 협업 정보 공유 - Nnotion | <img src=https://user-images.githubusercontent.com/115601551/218238810-6a80878f-d6f7-406f-a273-38c8615f601f.png width="700" height="500"> | Convention :<br/>하평안<br/><br/>디자인 시스템 :<br/>이진경, 서지연<br/><br/>공용 Hook :<br/>이진경, 서지연, 하평안 |
 
 ## 4️⃣ 구현기능 분석
 
@@ -78,11 +78,27 @@ COMMON:
 ## 구현 사항 설명
 
 ### 1. 메인 페이지
+* 이벤트 배너 케러셀
+ + setinterval method 사용하여 이벤트 이미지 캐러셀 구현
+* 캘픽 시험일정 카드 케러샐
+ + 시험 일정 Data를 5개씩 새로운 배열에 담는 로직을 구현, 가공하여 시험별로 Card Components Props를 넘겨 map method로 출력
+ + 클릭시 card Components 너비만큼 이동하는 로직으로 캐러샐 구현
 ### 2. 소셜 로그인
 ### 3. 로그인 & 회원가입
 ### 4. 시험 리스트 페이지 & 고사장 안내
 ### 5. 예약 페이지
 ### 6. 캘린더 페이지
+* FullCalendar library를 사용
+  +일정 확인
+    - 일정을 선택시 모달창 출력, id 값을 대조하여 index를 찾아 data안의 유저 일정 정보 출력
+  + 일정 삭제
+    - 일정 선택 후 삭제 버튼 클릭시 서버로 삭제 하고자 하는 id값을 보내 현재 일정만 삭제
+  + 일정 생성
+    - 일정 생성 버튼 클릭시 제목, 내용, 시작날짜, 종료날짜를 받아 서버로 전송 후 리랜더링, 화면에 생성된 일정 확인 가능
+  + 일정 날짜 변경
+    - 캘린더 내에서 일정을 drag & drop 시 일정의 변경된 날짜를 저장 refresh 후에도 적용
+  + 일정 내용 수정
+    - 일정 선택 후 수정 버튼 클릭시 input형태로 유저 정보 기제. 수정버튼 => 완료 버튼으로 전환, 완료 버튼 클릭시 변경된 일정 출력
 ### 7. 마이 페이지
 
 ## Team

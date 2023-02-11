@@ -23,7 +23,12 @@
   
 ## 3️⃣ 협업
 
-| 모델링 웹사이트 분석(Figma) | <img width=50% src=https://gif> |
+![스크린샷 2023-02-11 오전 11 59 22](https://user-images.githubusercontent.com/115601551/218238770-cea653d9-284a-4210-923a-807726b2c617.png)
+![스크린샷 2023-02-11 오전 11 56 16](https://user-images.githubusercontent.com/115601551/218238797-ac2452a2-5085-4d7e-ad15-2ea750e3811e.png)
+![스크린샷 2023-02-11 오전 11 54 59](https://user-images.githubusercontent.com/115601551/218238800-8e7b1b02-714f-465c-a97c-6cdc15d672f6.png)
+![스크린샷 2023-02-11 오전 11 52 00]()
+
+| 모델링 웹사이트 분석(Figma) | <img width=50% src=https://user-images.githubusercontent.com/115601551/218238810-6a80878f-d6f7-406f-a273-38c8615f601f.png> |
 | :--: | :--: | :--: |
 | 디자인 레이아웃(figma) | <img width=50% src=https://gif> |
 | 협업 툴(trello) | <img width=50% src=https://gif> |

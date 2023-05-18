@@ -41,7 +41,7 @@
 
 | 사이트             | 구현 모습                                                                                                                            | 담당 개발자                     |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------- |
-| 메인 페이지        | <img src = "" width = "400px">                                                                                                       | 프론트엔드:하평안/백엔드:류건호 |
+| 메인 페이지        | <img src = "https://velog.velcdn.com/images/ijinkyung/post/e0af6383-9f1c-4efa-8f89-1517f568cd41/image.png" width = "400px">                                                                                                       | 프론트엔드:하평안/백엔드:류건호 |
 | 회원가입           | <img src = "https://user-images.githubusercontent.com/117281717/218019618-5aa4b62e-18d3-4385-bac8-9115c1426f57.png" width = "400px"> | 프론트엔드:김우성/백엔드:이민규 |
 | 로그인             | <img src = "https://user-images.githubusercontent.com/117281717/218019612-30f829b5-6032-4d08-b73a-3de58f9162da.jpg" width = "400px"> | 프론트엔드:김우성/백엔드:이민규 |
 | 소셜로그인         | <img src = "https://user-images.githubusercontent.com/117281717/218025628-270a66ac-a538-4068-a41d-9b16a47c3967.gif" width = "400px"> | 프론트엔드:이진경/백엔드:류건호 |
